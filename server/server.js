@@ -17,7 +17,7 @@ app.use(express.json())
 
 app.get('/', async (req, res) => {
   res.status(200).send({
-    message: 'Hello from CodeX!'
+    message: 'Hello from GPT!'
   })
 })
 
@@ -45,4 +45,4 @@ app.post('/', async (req, res) => {
   }
 })
 
-app.listen(3000, () => console.log('AI server started on http://localhost:3000'))
+app.listen(3000, () => console.log('Launched'))
